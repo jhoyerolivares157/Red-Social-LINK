@@ -1,0 +1,228 @@
+/* author: https://codepen.io/william-goldsworthy/pen/JzVajj
+William Goldsworthy */
+body {
+    
+    background-color: #100e17;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h2 {
+    margin-top: 1200px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: red;
+    color: rgba(205, 204, 204, 0.7);
+    font-family: Great Vibes;
+    font-weight: 400;
+    display: block;
+  }
+
+  strong {
+    font-size: 3.5rem;
+    font-family: fantasy;
+    color: rgb(255, 255, 255);
+  }
+  
+  .container {
+    margin-top: 60px;
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    top: 60px;
+    left: calc(50% - 300px);
+    display: flex;
+  }
+
+  p {
+    color: blanchedalmond;
+  }
+  
+  .card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  .card:not(:first-child) {
+      margin-left: -50px;
+  }
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 80px;
+    transition: 0.4s ease-out;
+  }
+  
+  .title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+  
+  .bar {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
+  }
+  
+  .emptybar {
+    background-color: #2e3033;
+    text-decoration-color: aliceblue;
+    width: 67%;
+    height: 100%;
+  }
+  
+  .filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(0,154,217);
+    background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+    transition: 0.6s ease-out;
+  }
+  
+  .card:hover .filledbar {
+    width: 100px;
+    transition: 0.4s ease-out;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 60px);
+  }
+  
+  .stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+  }
+  
+  svg {
+    fill: #17141d;
+    stroke-width: 2px;
+  }
+  
+  .card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+  }
+
+/* nuevo contenedor ++++++++++++++++++++++++++++ */
+
+.container1 {
+    margin-top: 350px;
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    top: 60px;
+    left: calc(50% - 300px);
+    display: flex;
+  }
+  
+  .card1 {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  .card1:not(:first-child) {
+      margin-left: -50px;
+  }
+  
+  .card1:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card1:hover ~ .card1 {
+    position: relative;
+    left: 80px;
+    transition: 0.4s ease-out;
+  }
+  
+  .title1 {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+  
+  .bar1 {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
+  }
+  
+  .emptybar1 {
+    background-color: #2e3033;
+    text-decoration-color: aliceblue;
+    width: 67%;
+    height: 100%;
+  }
+  
+  .filledbar1 {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(0,154,217);
+    background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+    transition: 0.6s ease-out;
+  }
+  
+  .card1:hover .filledbar1 {
+    width: 120px;
+    transition: 0.4s ease-out;
+  }
+  
+  .circle1 {
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 60px);
+  }
+  
+  .stroke1 {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+  }
+  
+  svg {
+    fill: #17141d;
+    stroke-width: 2px;
+  }
+  
+  .card1:hover .stroke1 {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+  }
